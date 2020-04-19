@@ -32,6 +32,16 @@ npm run dev
 npm run build
 ```
 
+- Run production server (after build):
+```shell
+npm run start
+```
+
+- Generate static site:
+```shell
+npm run export
+```
+
 ## License
 ISC
 
