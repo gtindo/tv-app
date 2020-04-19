@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Head from 'next/head';
+
 import { useState } from 'react';
 import CHANNELS from '../data/channels';
 
@@ -34,6 +36,9 @@ const Index = (props) => {
   
   return (
     <div>
+      <Head>
+        <title>Tv App | Home</title>
+      </Head>
       <div>
         <label htmlFor="countries" className="title">Choose your country</label><br />
         <select id="countries" className="select"

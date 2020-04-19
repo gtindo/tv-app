@@ -1,5 +1,7 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import Head from 'next/head';
+
 import Iframe from 'react-iframe';
 import CHANNELS from '../../data/channels';
 
@@ -11,6 +13,10 @@ const Post = (props) => {
 
   return (
     <div>
+       <Head>
+        <title>Tv App | Home</title>
+      </Head>
+      
       <Link href="/">
         <a>Back to home</a>
       </Link>
