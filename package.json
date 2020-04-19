@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "preexport": "npm run build",
-    "start": "serve out",
-    "prestart": "npm run export",
+    "start": "next start",
     "export": "next export"
   },
   "keywords": [],
