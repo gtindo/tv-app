@@ -14,9 +14,9 @@ const Post = (props) => {
   return (
     <div>
        <Head>
-        <title>Tv App | Home</title>
+        <title>Tv App | {channel.length === 0 ? 'Channel not found' : channel[0].name} </title>
       </Head>
-      
+
       <Link href="/">
         <a>Back to home</a>
       </Link>
